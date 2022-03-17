@@ -1,0 +1,16 @@
+{
+    "setting": {
+        "urlCheck": true,
+        "es6": true,
+        "postcss": true,
+        "minified": true,
+        "newFeature": true
+    },
+    "appid": "tt6dfe1b43f2c0c43301",
+    "projectname": "autism_resume",
+    "condition": {
+        "miniprogram": {
+            "current": -1
+        }
+    }
+}
