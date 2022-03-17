@@ -8,7 +8,7 @@
 
 <view class="page-section">
 <view class="page-section-title page-section-title-space">
-  <text>1.请问1+1等于几</text>
+  <text>{{content}}</text>
 </view>
 </view>
 <view class="ttui-cells">
@@ -17,7 +17,7 @@
       <view class="ttui-cell__hd">
         <radio value="{{item.value}}" checked="{{item.checked}}" disabled="{{false}}" color="#F85959" />
       </view>
-      <view class="ttui-cell__bd">{{item.name}}</view>
+      <view class="ttui-cell__bd">{{item.descriptions}}</view>
     </label>
   </radio-group>
 </view>
