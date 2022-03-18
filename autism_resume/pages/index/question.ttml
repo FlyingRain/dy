@@ -1,0 +1,31 @@
+<view class="page-section page-section-gap" style="background-color: #929292b4">
+  <view class="page-section-ctn">
+    <image class="image width-fix" src="{{url}}" binderror="binderror" bindload="bindload" lazy-load />
+  </view>
+</view>
+<view class="intro">测评卡</view>
+<view class="intro">一、数字类测评</view>
+
+<view class="page-section">
+<view class="page-section-title page-section-title-space">
+  <text>{{content}}</text>
+</view>
+</view>
+<view class="ttui-cells">
+  <radio-group bindchange="checkboxChange">
+    <label class="ttui-cell" tt:for="{{items}}" tt:key="{{item.value}}">
+      <view class="ttui-cell__hd">
+        <radio value="{{item.value}}" checked="{{item.checked}}" disabled="{{false}}" color="#F85959" />
+      </view>
+      <view class="ttui-cell__bd">{{item.descriptions}}</view>
+    </label>
+  </radio-group>
+</view>
+
+<view class="button-category">
+  <view class="mini-buttons">
+    <button class="mini-btn" type="primary" size="mini" bindtap="preQuestion">上一题</button>
+    <button class="mini-btn" type="primary" size="mini" bindtap="nextQuestion">下一题</button>
+    <button class="mini-btn" type="primary" size="mini" disabled="{{canSubmit}}">提交</button>
+  </view>
+</view>

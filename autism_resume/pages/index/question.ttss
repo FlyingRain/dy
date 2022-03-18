@@ -1,0 +1,48 @@
+.intro {
+  margin: 10px;
+  text-align: left;
+  font-size: 13px;
+}
+
+.page-section-ctn {
+  text-align: center;
+}
+
+.image {
+
+  margin: 30rpx 30px;
+  width: 216rpx;
+  height: 54rpx;
+}
+
+.aspect-fit {
+  height: 108px;
+}
+
+.width-fix {
+  width: 216px;
+}
+
+.left-fix {
+  height: 108px;
+}
+
+
+.two-direction-fix {
+  height: 20px;
+  width: 50px;
+}
+
+.button-category{
+  background-color: #fff;
+  padding: 0 15px 15px;
+  margin: 15px 0;
+  font-size: 20px;
+}
+.mini-buttons {
+  text-align: center;
+}
+
+.mini-buttons .mini-btn{
+  margin-right: 20px;
+}

@@ -1,0 +1,20 @@
+<view class="page-section page-section-gap" style="background-color: #929292b4">
+    <view class="page-section-ctn">
+      <image class="image width-fit" src="{{url}}" binderror="binderror" bindload="bindload" lazy-load />
+    </view>
+  </view>
+  <view class="page-section page-section-ctn">
+    <view class="page-card" style="background-image: url('pages/index/record.png');" bindtap="onItemClick">
+      <view class="card-name">我是测试小朋友
+      
+        
+      </view>
+    </view>
+   </view>
+
+<view class="page-section">
+  <view class="page-section-ctn">
+    <image class="image width-fix" src="/pages/index/add.png" binderror="binderror" bindload="bindload" lazy-load />
+  </view>
+  </view>
+

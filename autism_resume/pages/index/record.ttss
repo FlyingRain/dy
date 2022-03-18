@@ -1,0 +1,28 @@
+.image {
+    margin: 30rpx 30  px;
+    width: 216rpx;
+    height: 54rpx;
+  }
+  .page-section-ctn {
+      width: 100%;
+    text-align: center;
+  }
+  .width-fix {
+    width: 316px;
+    height: 100px;
+  }
+  
+  
+  .page-card {
+      width: 50%;
+      margin:0 auto ;
+      text-align: center;
+    width: 310px;
+    height: 162px;
+  }
+
+  .card-name{
+    margin-top: 30px;
+      font-size: 22px;
+      padding-top: 50px;
+  }

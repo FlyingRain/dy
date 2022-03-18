@@ -1,11 +1,14 @@
 {
   "pages":[
-    "pages/index/index"
+    "pages/index/index",
+    "pages/index/question",
+    "pages/index/record"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "演示",
     "navigationBarTextStyle":"black"
-  }
+  },
+  "entryPagePath": "pages/index/index"
 }
